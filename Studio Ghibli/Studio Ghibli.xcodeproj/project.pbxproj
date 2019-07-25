@@ -12,6 +12,18 @@
 		CE82B8E422E9EF4A00090CFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE82B8E222E9EF4A00090CFD /* Main.storyboard */; };
 		CE82B8E622E9EF4B00090CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE82B8E522E9EF4B00090CFD /* Assets.xcassets */; };
 		CE82B8E922E9EF4B00090CFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE82B8E722E9EF4B00090CFD /* LaunchScreen.storyboard */; };
+		CE82B8F222E9F01600090CFD /* ApiURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82B8F122E9F01600090CFD /* ApiURLSession.swift */; };
+		CE82B8F422E9F06200090CFD /* GetApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82B8F322E9F06200090CFD /* GetApi.swift */; };
+		CE82B8F622E9F0F200090CFD /* GhibliApiURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82B8F522E9F0F200090CFD /* GhibliApiURL.swift */; };
+		CE82B8F922E9F79200090CFD /* FilmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82B8F822E9F79200090CFD /* FilmTableViewCell.swift */; };
+		CE82B8FD22E9F7CE00090CFD /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82B8FC22E9F7CE00090CFD /* FilmsViewController.swift */; };
+		CE82B90022E9F97600090CFD /* FilmsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82B8FF22E9F97600090CFD /* FilmsProvider.swift */; };
+		CE82B90622E9FAA200090CFD /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82B90522E9FAA200090CFD /* Film.swift */; };
+		CE82B90822E9FF1400090CFD /* GhibliApiURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82B90722E9FF1400090CFD /* GhibliApiURLRequest.swift */; };
+		CE82B90D22E9FFAB00090CFD /* CharactersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82B90C22E9FFAB00090CFD /* CharactersProvider.swift */; };
+		CE82B90F22E9FFBD00090CFD /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82B90E22E9FFBD00090CFD /* Character.swift */; };
+		CE82B91122EA009A00090CFD /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82B91022EA009A00090CFD /* CharacterTableViewCell.swift */; };
+		CE82B91322EA010700090CFD /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82B91222EA010600090CFD /* CharactersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		CE82B8E522E9EF4B00090CFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE82B8E822E9EF4B00090CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE82B8EA22E9EF4B00090CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE82B8F122E9F01600090CFD /* ApiURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiURLSession.swift; sourceTree = "<group>"; };
+		CE82B8F322E9F06200090CFD /* GetApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetApi.swift; sourceTree = "<group>"; };
+		CE82B8F522E9F0F200090CFD /* GhibliApiURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliApiURL.swift; sourceTree = "<group>"; };
+		CE82B8F822E9F79200090CFD /* FilmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmTableViewCell.swift; sourceTree = "<group>"; };
+		CE82B8FC22E9F7CE00090CFD /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
+		CE82B8FF22E9F97600090CFD /* FilmsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsProvider.swift; sourceTree = "<group>"; };
+		CE82B90522E9FAA200090CFD /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		CE82B90722E9FF1400090CFD /* GhibliApiURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliApiURLRequest.swift; sourceTree = "<group>"; };
+		CE82B90C22E9FFAB00090CFD /* CharactersProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersProvider.swift; sourceTree = "<group>"; };
+		CE82B90E22E9FFBD00090CFD /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		CE82B91022EA009A00090CFD /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		CE82B91222EA010600090CFD /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,58 @@
 		CE82B8DD22E9EF4A00090CFD /* Studio Ghibli */ = {
 			isa = PBXGroup;
 			children = (
+				CE82B90122E9FA4600090CFD /* Entity */,
+				CE82B8FE22E9F96100090CFD /* Interactor */,
+				CE82B8F722E9F72800090CFD /* View */,
+				CE82B8F022E9EFA700090CFD /* Adapter */,
 				CE82B8DE22E9EF4A00090CFD /* AppDelegate.swift */,
 				CE82B8E022E9EF4A00090CFD /* ViewController.swift */,
+				CE82B8FC22E9F7CE00090CFD /* FilmsViewController.swift */,
+				CE82B91222EA010600090CFD /* CharactersViewController.swift */,
 				CE82B8E222E9EF4A00090CFD /* Main.storyboard */,
 				CE82B8E522E9EF4B00090CFD /* Assets.xcassets */,
 				CE82B8E722E9EF4B00090CFD /* LaunchScreen.storyboard */,
 				CE82B8EA22E9EF4B00090CFD /* Info.plist */,
 			);
 			path = "Studio Ghibli";
+			sourceTree = "<group>";
+		};
+		CE82B8F022E9EFA700090CFD /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				CE82B8F122E9F01600090CFD /* ApiURLSession.swift */,
+				CE82B8F522E9F0F200090CFD /* GhibliApiURL.swift */,
+				CE82B90722E9FF1400090CFD /* GhibliApiURLRequest.swift */,
+				CE82B8F322E9F06200090CFD /* GetApi.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		CE82B8F722E9F72800090CFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE82B8F822E9F79200090CFD /* FilmTableViewCell.swift */,
+				CE82B91022EA009A00090CFD /* CharacterTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE82B8FE22E9F96100090CFD /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CE82B8FF22E9F97600090CFD /* FilmsProvider.swift */,
+				CE82B90C22E9FFAB00090CFD /* CharactersProvider.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CE82B90122E9FA4600090CFD /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CE82B90522E9FAA200090CFD /* Film.swift */,
+				CE82B90E22E9FFBD00090CFD /* Character.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +203,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE82B90F22E9FFBD00090CFD /* Character.swift in Sources */,
+				CE82B91122EA009A00090CFD /* CharacterTableViewCell.swift in Sources */,
+				CE82B8FD22E9F7CE00090CFD /* FilmsViewController.swift in Sources */,
+				CE82B90822E9FF1400090CFD /* GhibliApiURLRequest.swift in Sources */,
+				CE82B8F622E9F0F200090CFD /* GhibliApiURL.swift in Sources */,
 				CE82B8E122E9EF4A00090CFD /* ViewController.swift in Sources */,
+				CE82B8F422E9F06200090CFD /* GetApi.swift in Sources */,
+				CE82B91322EA010700090CFD /* CharactersViewController.swift in Sources */,
+				CE82B90622E9FAA200090CFD /* Film.swift in Sources */,
+				CE82B90022E9F97600090CFD /* FilmsProvider.swift in Sources */,
+				CE82B8F922E9F79200090CFD /* FilmTableViewCell.swift in Sources */,
 				CE82B8DF22E9EF4A00090CFD /* AppDelegate.swift in Sources */,
+				CE82B90D22E9FFAB00090CFD /* CharactersProvider.swift in Sources */,
+				CE82B8F222E9F01600090CFD /* ApiURLSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F8RL28DEC;
 				INFOPLIST_FILE = "Studio Ghibli/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F8RL28DEC;
 				INFOPLIST_FILE = "Studio Ghibli/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

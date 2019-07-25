@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func filmsTapped(_ sender: Any) {
+        performSegue(withIdentifier: "openFilms", sender: nil)
     }
-
+    
+    @IBAction func charactersTapped(_ sender: Any) {
+        performSegue(withIdentifier: "openCharacters", sender: nil)
+    }
 
 }
 
